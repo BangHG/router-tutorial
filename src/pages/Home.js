@@ -11,6 +11,8 @@ const Home = () => {
         <li><Link to="/about">소개</Link></li>
         <li><Link to="/profile/me">me의 프로필</Link></li>
         <li><Link to="/profile/gildong">gildong의 프로필</Link></li>
+
+        <li><Link to= "/articles">게시물 목록</Link></li>
       </ul>
 
       

@@ -1,6 +1,7 @@
 ﻿import React from 'react';
 // import {Link} from 'react-router-dom';
 import {useSearchParams} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 const About = () => {
   const [searchParams,setSearchParams]= useSearchParams();
@@ -27,7 +28,11 @@ const About = () => {
       </button>
       <button onClick={onIncreaseMode}>
       mode + 1
-      </button>      
+      </button>     
+      
+      <div>
+        <Link to="/">메인화면으로</Link>
+      </div>
     </div>
   );
 }; 
