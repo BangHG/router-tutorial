@@ -18,8 +18,8 @@ const App = () => {
         <Route path="/about" element={<About/>}/>
         <Route path="/profile/:username" element={<Profile/>}/>
       </Route>
-      <Route path="/articles" element={<Articles/>}>          
-        <Route path="/articles/:id" element={<Article/>}/>
+      <Route path="/articles" element={<Articles />}>          
+        <Route path=":id" element={<Article/>}/>
       </Route>
       {/* 와 정말 헷갈려요. */}
       

@@ -1,6 +1,5 @@
-// ##13.5 중첩된 라우트
-
 import {useParams} from 'react-router-dom';
+// ##13.5 중첩된 라우트
 
 const Article = () =>{
   const {id} = useParams();
